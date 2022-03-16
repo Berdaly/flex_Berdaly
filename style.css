@@ -52,13 +52,21 @@ header {
 .gallery {
   display: grid;
   grid-template-columns: 290px 290px 290px 290px;
-  grid-template-rows: 482px 482px;
+  grid-template-rows: auto auto auto;
   grid-gap: 15px;
   margin: 70px;
+  margin-top: 10px;
 }
 .photo1 {
   color: aliceblue;
   border-image-repeat: 290px 223px;
   background-color: #fff;
   color: black;
+}
+.photo1 b {
+  font-size: 16px;
+}
+.photo1 a {
+  color: #22b573;
+  text-decoration: none;
 }
